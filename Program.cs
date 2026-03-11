@@ -9,6 +9,8 @@
         List<Horse> horses = new List<Horse>();
         List<Thread> threads = new List<Thread>();
 
+        Console.CursorVisible = false;
+
         for (int i = 0; i < 4; i++)
         {
             horses.Add(new Horse(i + 1));
